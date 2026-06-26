@@ -1,23 +1,24 @@
-# 📚 Smart Book Recommendation & Summarization System
+# ReadIQ
+# A Smart Book Recommendation & Summarization System
 
 ## IBM AI/ML Internship Project
 
-### 📖 Project Overview
+###  Project Overview
 The Smart Book Recommendation & Summarization System is an AI/ML-based application that recommends books based on content similarity and provides a short summary of the selected book. The system uses Natural Language Processing (NLP) techniques to analyze book descriptions and recommend similar books.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 Users often find it difficult to discover books related to their interests from a large collection. Searching manually is time-consuming and inefficient.
 
 ---
 
-## 💡 Proposed Solution
+##  Proposed Solution
 This project uses Content-Based Recommendation with Natural Language Processing (NLP). It converts book descriptions into numerical vectors using TF-IDF Vectorization and calculates similarity using Cosine Similarity to recommend the most relevant books.
 
 ---
 
-## ⚙️ System Approach
+##  System Approach
 
 1. Load the book dataset.
 2. Preprocess the book descriptions.
@@ -29,7 +30,7 @@ This project uses Content-Based Recommendation with Natural Language Processing 
 
 ---
 
-## 🤖 AI/ML Techniques Used
+##  AI/ML Techniques Used
 
 - Natural Language Processing (NLP)
 - TF-IDF Vectorization
@@ -38,7 +39,7 @@ This project uses Content-Based Recommendation with Natural Language Processing 
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python
 - Gradio
@@ -48,7 +49,7 @@ This project uses Content-Based Recommendation with Natural Language Processing 
 
 ---
 
-## ✨ Features
+##  Features
 
 - Search books by title
 - Recommend Top 5 similar books
@@ -58,7 +59,7 @@ This project uses Content-Based Recommendation with Natural Language Processing 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Smart-Book-Recommendation-System/
@@ -73,7 +74,7 @@ Smart-Book-Recommendation-System/
 
 ---
 
-## ▶️ Installation
+##  Installation
 
 Clone the repository:
 
@@ -95,19 +96,10 @@ python app.py
 
 ---
 
-## 📸 Output Screenshots
-
-Add screenshots of:
-
-- Home Screen
-- Book Recommendation Results
-- Book Summary
-
-inside the `screenshots` folder.
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
 - Large-scale book dataset
 - Personalized recommendations
@@ -117,7 +109,7 @@ inside the `screenshots` folder.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Gaurav Pandey**
 
