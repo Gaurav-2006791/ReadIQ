@@ -1,0 +1,177 @@
+# Smart Book Recommendation & Summarization System
+
+## IBM AI/ML Internship Project Report
+
+### Submitted By
+
+**Name:** Gaurav Pandey
+
+---
+
+# 1. Abstract
+
+The Smart Book Recommendation & Summarization System is an Artificial Intelligence and Machine Learning project developed to recommend books based on their content. The system applies Natural Language Processing (NLP) techniques to analyze book descriptions and recommends similar books using Content-Based Filtering. The project also displays a short summary of the selected book to help users understand the book before reading it.
+
+---
+
+# 2. Introduction
+
+With thousands of books available, users often struggle to find books matching their interests. Traditional search methods rely on keywords and manual browsing, which can be inefficient. This project solves this problem by using machine learning algorithms to recommend books automatically based on textual similarity.
+
+---
+
+# 3. Problem Statement
+
+Finding relevant books from a large collection is difficult and time-consuming. Users require an intelligent recommendation system that can suggest similar books based on their interests and provide a summary for quick understanding.
+
+---
+
+# 4. Objectives
+
+* Develop an AI-based recommendation system.
+* Recommend similar books using machine learning.
+* Generate a concise summary using book descriptions.
+* Build a simple and user-friendly interface using Gradio.
+
+---
+
+# 5. Proposed Solution
+
+The proposed solution uses Content-Based Recommendation. The system converts book descriptions into numerical vectors using TF-IDF Vectorization and calculates similarity using Cosine Similarity. Based on similarity scores, the system recommends the top five books related to the selected book.
+
+---
+
+# 6. Technologies Used
+
+* Python
+* Gradio
+* Pandas
+* NumPy
+* Scikit-learn
+
+---
+
+# 7. AI/ML Concepts Used
+
+* Natural Language Processing (NLP)
+* TF-IDF Vectorization
+* Cosine Similarity
+* Content-Based Recommendation
+
+---
+
+# 8. System Architecture
+
+User Input (Book Title)
+
+↓
+
+Book Dataset (books.csv)
+
+↓
+
+Text Preprocessing
+
+↓
+
+TF-IDF Vectorization
+
+↓
+
+Cosine Similarity Calculation
+
+↓
+
+Top 5 Recommendations
+
+↓
+
+Book Summary Display
+
+---
+
+# 9. Algorithm
+
+1. Load the dataset.
+2. Read book descriptions.
+3. Convert descriptions into TF-IDF vectors.
+4. Calculate Cosine Similarity between books.
+5. Accept the user's selected book.
+6. Find the most similar books.
+7. Display recommendations and the selected book summary.
+
+---
+
+# 10. Features
+
+* Book Recommendation
+* Book Summary
+* Fast Search
+* AI/ML-Based Recommendation
+* Interactive Gradio Interface
+
+---
+
+# 11. Project Structure
+
+Smart-Book-Recommendation-System/
+
+* app.py
+* books.csv
+* requirements.txt
+* README.md
+* .gitignore
+* screenshots/
+
+---
+
+# 12. Results
+
+The application successfully recommends similar books using TF-IDF Vectorization and Cosine Similarity. Users receive the top five related books along with the selected book's summary.
+
+(Add screenshots here.)
+
+---
+
+# 13. Advantages
+
+* Fast recommendations
+* Easy to use
+* AI/ML-based solution
+* Lightweight implementation
+* Suitable for educational purposes
+
+---
+
+# 14. Limitations
+
+* Uses a sample dataset.
+* Recommendations depend on the quality of book descriptions.
+* Does not include user-personalized recommendations.
+
+---
+
+# 15. Future Scope
+
+* Larger dataset
+* User authentication
+* Personalized recommendations
+* Integration with online book APIs
+* AI-generated summaries using Large Language Models
+* Voice-based search
+
+---
+
+# 16. Conclusion
+
+The Smart Book Recommendation & Summarization System demonstrates how Artificial Intelligence and Machine Learning techniques can be applied to recommend books efficiently. The project uses Natural Language Processing, TF-IDF Vectorization, and Cosine Similarity to deliver accurate content-based recommendations through an easy-to-use Gradio interface.
+
+---
+
+# 17. References
+
+1. Scikit-learn Documentation
+2. Pandas Documentation
+3. NumPy Documentation
+4. Gradio Documentation
+5. Python Official Documentation
