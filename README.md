@@ -79,7 +79,7 @@ Smart-Book-Recommendation-System/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Smart-Book-Recommendation-System.git
+git clone https://github.com/Gaurav-2006791/Smart-Book-Recommendation-System.git
 ```
 
 Install dependencies:
